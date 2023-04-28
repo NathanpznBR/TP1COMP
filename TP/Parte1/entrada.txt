@@ -1,1 +1,2 @@
+// Aqui eu passo só um + e ;, a entrada pode ser modificada pra qualquer coisa.
 +;
