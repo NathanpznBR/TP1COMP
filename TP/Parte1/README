@@ -1,6 +1,6 @@
 A primeira etapa aqui foi implementar um analisador léxico.
 Praticamente, você passa uma palavra com o Token e ele reconhece guardando com um número associado ao ENum em Token.h
-É utilizado switch cases para resolver o que cada Token reconhece e as principais funções modificada são:
+É utilizado switch cases para resolver o que cada Token reconhece e as principais funções modificadas foram:
 
 Token.h
 e
