@@ -1,5 +1,5 @@
 Aqui a coisa começou a ficar mais complicada... Há alguns erros no código, não irá executar. Mas, acredito que deve ser porque faltam algumas classes
-que só aparecem na próxima etapa a terceira e última.
+que só aparecem na próxima etapa a terceira e última. (Se eu corrigir com o tempo, eu modifico aqui.)
 
 Mas, praticamente aqui ele pega o que o Token guardou na primeira etapa e o código é uma transcrição da Gramática fornecida na descrição do TP.
 Tente comparar a descrição com o passo a passo e fica claro o entendimento do Parser.
