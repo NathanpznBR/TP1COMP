@@ -1,0 +1,9 @@
+Aqui a coisa começou a ficar mais complicada... Há alguns erros no código, não irá executar. Mas, acredito que deve ser porque faltam algumas classes
+que só aparecem na próxima etapa a terceira e última.
+
+Mas, praticamente aqui ele pega o que o Token guardou na primeira etapa e o código é uma transcrição da Gramática fornecida na descrição do TP.
+Tente comparar a descrição com o passo a passo e fica claro o entendimento do Parser.
+
+O método importante de se conhecer é o match. Ele é bem curto, simplesmente verifica se o que você escreveu pro compilador
+existe e respeita a gramática. Essa parte é bem mecânica, bem passo a passo e é muito interessante ver que a gramática fornecida
+na descrição do trabalho é convertida e código praticamente com a mesma ideia.
