@@ -10,3 +10,4 @@ na descrição do trabalho é convertida e código praticamente com a mesma idei
 
 EDIT 1: Modifiquei o parser.cpp com as devidas correções referentes ao nome exato que o Token.h fornece.
 Não está implementado a tabela e tratamento de palavras reservadas ainda.
+Atualizei o Token inspirado no TP do Isaac colocando as palavras reservadas nos Enum mesmo.
