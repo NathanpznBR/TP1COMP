@@ -7,3 +7,6 @@ Tente comparar a descrição com o passo a passo e fica claro o entendimento do 
 O método importante de se conhecer é o match. Ele é bem curto, simplesmente verifica se o que você escreveu pro compilador
 existe e respeita a gramática. Essa parte é bem mecânica, bem passo a passo e é muito interessante ver que a gramática fornecida
 na descrição do trabalho é convertida e código praticamente com a mesma ideia.
+
+EDIT 1: Modifiquei o parser.cpp com as devidas correções referentes ao nome exato que o Token.h fornece.
+Não está implementado a tabela e tratamento de palavras reservadas ainda.
