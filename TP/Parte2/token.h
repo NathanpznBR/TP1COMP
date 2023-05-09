@@ -25,7 +25,7 @@ enum Names
     NOT_EQUAL, // 13
     NOT,       // 14
 
-    SEP,          // 15
+    SEP,      // 15
     LPAREN,   // 16
     RPAREN,   // 17
     LCOLCH,   // 18
@@ -39,6 +39,29 @@ enum Names
     COMMENT,     //  25
 
     END_OF_FILE,   // 26
+
+    BOOLEAN, // 27
+    CLASS,  // 28
+    ELSE,   // 29
+    EXTENDS, // 30
+    FALSE, // 31
+    IF, // 32
+    INT, // 33
+    LENGTH, // 34
+    MAIN, // 35
+    NEW, // 36
+    PUBLIC, // 37
+    RETURN, // 38
+    STATIC, // 39
+    STRING, // 40
+    SYSTEM, // 41
+    OUT, // 42
+    PRINTLN, // 43
+    THIS, // 44
+    THIS, // 45
+    TRUE, // 46
+    VOID, // 47
+    WHILE // 48
 };
 
 class Token
