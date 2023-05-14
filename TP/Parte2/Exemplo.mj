@@ -1,0 +1,24 @@
+class Main {
+  public static void main(String[] args) {
+    System.out.println(new MyClass().myMethod(3, true));
+  }
+}
+
+class MyClass {
+  int myInt;
+
+  public boolean myMethod(int x, boolean y) {
+    int z;
+    z = x + 2;
+    if (z < 5) {
+      myInt = 10;
+    } else {
+      myInt = 20;
+    }
+    while (myInt > 0) {
+      System.out.println(myInt);
+      myInt = myInt - 1;
+    }
+    return y && true;
+  }
+}
