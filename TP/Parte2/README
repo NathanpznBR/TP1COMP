@@ -13,4 +13,4 @@ Não está implementado a tabela e tratamento de palavras reservadas ainda.
 Atualizei o Token inspirado no TP do Isaac colocando as palavras reservadas nos Enum mesmo.
 
 EDIT2: Parte2 compilando, mas com sérios problemas de caso de teste. O problema está nas palavras reservadas. Mesmo eu mudando os testes ele continua falando que está certo
-sendo que não está. Sérios problemas.
+sendo que não está. Sérios problemas. Tentei implementar else if em Scanner.cpp para palavras reservadas, sem sucesso de correção.
