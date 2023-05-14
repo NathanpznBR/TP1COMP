@@ -12,4 +12,5 @@ EDIT 1: Modifiquei o parser.cpp com as devidas correções referentes ao nome ex
 Não está implementado a tabela e tratamento de palavras reservadas ainda.
 Atualizei o Token inspirado no TP do Isaac colocando as palavras reservadas nos Enum mesmo.
 
-EDIT2: Parte2 finalizada e funcional. Nota 8 garantida, e talvez um 9 pelo ModoPanico implementado.
+EDIT2: Parte2 compilando, mas com sérios problemas de caso de teste. O problema está nas palavras reservadas. Mesmo eu mudando os testes ele continua falando que está certo
+sendo que não está. Sérios problemas.
