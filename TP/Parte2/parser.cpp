@@ -29,23 +29,16 @@ void Parser::run()
 // .1 Program -> MainClass (ClassDeclaration) * EOF
 void Parser::program()
 {
-    // TODO
-    mainClass();
-
-    while (lToken->name == CLASS)
-    {
-        classDeclaration();
-    }
-
-    match(EOF);
+    if (lToken->name == CLASS)
+        classList();
 }
 
-void Parser::match(int t)
+void Parser::classList()
 {
-    if (lToken->name == t || lToken->attribute == t)
-        advance();
-    else
-        error("Erro inesperado");
+    do
+    {
+        classDeclaration();
+    } while (lToken->name == CLASS);
 }
 
 // 2. MainClass -> class ID { public static void main(String[] ID){ Statement }}
@@ -77,7 +70,7 @@ void Parser::classDeclaration()
     match(ID);
     if (lToken->name == EXTENDS)
     {
-        match(EXTENDS);
+        advance();
         match(ID);
     }
     match(LCOLCH);
@@ -162,8 +155,8 @@ void Parser::type()
         error("Tipo esperado");
     }
 }
-// 7. Statement -> { (Statement)* } | if ( Expression ) Statement (else Statement)? 
-// | while ( Expression ) Statement | System.out.println ( Expression ) ; 
+// 7. Statement -> { (Statement)* } | if ( Expression ) Statement (else Statement)?
+// | while ( Expression ) Statement | System.out.println ( Expression ) ;
 // | ID = Expression ; | ID [ Expression ] = Expression ;
 void Parser::statement()
 {
@@ -364,6 +357,11 @@ void Parser::op()
 void Parser::error(string str)
 {
     cout << "Linha " << scanner->getLine() << ": " << str << endl;
+    // Modo Pânico
+    while (lToken->name != PONTVIR && lToken->name != RCHAVE && lToken->name != END_OF_FILE)
+    {
+        lToken = scanner->nextToken();
+    }
 
     exit(EXIT_FAILURE);
 }
