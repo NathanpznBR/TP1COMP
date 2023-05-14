@@ -58,10 +58,9 @@ enum Names
     OUT, // 42
     PRINTLN, // 43
     THIS, // 44
-    THIS, // 45
-    TRUE, // 46
-    VOID, // 47
-    WHILE // 48
+    TRUE, // 45
+    VOID, // 46
+    WHILE // 47
 };
 
 class Token
