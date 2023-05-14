@@ -14,6 +14,7 @@ class Parser
 		void run();
         void program();
         void mainClass();
+		void classList();
 		void classDeclaration();
 		void varDeclaration();
 		void methodDeclaration();
@@ -21,6 +22,5 @@ class Parser
 		void statement();
 		void expression();
 		void op();
-        //Continuar....
         void error(string);
 };
